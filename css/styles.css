@@ -1,3 +1,64 @@
-body{
-    background-color:orangered;
+
+:root{
+    --primary-text-color:rgba(0,0,0,0.8);
+    --accent-color:#18a0fb;
+    --primary-white-color:#ffffff;
+    --color-purple:rgb(128,0,128); 
 }
+body{
+        color:var(--primary-text-color);
+    }
+.feature-title{
+    color:rgb(128,0,128);
+}
+.feature-text{
+    color:rgba(0,0,0,0.8);
+}
+
+.logo-secondary{
+    color: black;
+}
+.hero-title,{
+    color:#18a0fb;
+}
+.hero-title :focus{
+color: purple;
+}
+.hero-btn{
+    color:#ffffff;
+    background-color: #18a0fb;
+}
+.social-links{
+    color: chartreuse;
+}
+.social-links :hover{
+color:brown;
+}
+.social-links :focus{
+    color:darkgreen;
+}
+.logo-primary{
+    color: #18a0fb;
+}
+.navigation-item :hover{
+color: #18a0fb;
+}
+.navigation-item :focus{
+    color: #000000;
+}
+.nav-item{
+    color: black;
+}
+.nav-item :hover{
+    color: #ffffff;
+    background-color: #18a0fb;
+}
+.nav-item :focus{
+    color: orangered;
+    background-color: #000000;
+}
+.nav-item :active{
+    color:chartreuse;
+    background-color: #000000;
+}
+
