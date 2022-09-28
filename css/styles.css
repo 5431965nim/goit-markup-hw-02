@@ -9,16 +9,20 @@ body{
         color:var(--primary-text-color);
     }
 .feature-title{
-    color:rgb(128,0,128);
+    color:#212121;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.17;
 }
 .feature-text{
-    color:rgba(0,0,0,0.8);
+    color:#757575;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
+}
+.feature-item{
+    text-decoration: none;
+    list-style-type:none;
 }
 
 .logo-secondary{
@@ -32,9 +36,10 @@ body{
     font-weight: 700;
     font-size: 26px;
     line-height: 1.17;
+    text-decoration: none;
 }
 .hero-title{
-    color:#18a0fb;
+    color:black;
     font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -50,6 +55,8 @@ color: purple;
     font-size: 16px;
   line-height: 1.8;
   text-align: center;
+  border:#18a0fb;
+  border-radius: 4px;
 }
 .social-links{
     color: chartreuse;
@@ -63,6 +70,16 @@ color:brown;
 .social-links :focus{
     color:darkgreen;
 }
+.navigation-list{
+    text-decoration: none;
+    list-style: none;
+}
+.addres-list{
+    list-style: none;
+}
+.addres-item{
+    text-decoration: none;
+}
 .navigation-item{
     font-weight: 500;
     font-size: 14px;
@@ -70,15 +87,17 @@ color:brown;
 }
 .navigation-link{
     text-decoration:none ;
+    color:#212121
+}
+.navigation-link-active{
+    color: #18a0fb;
+    text-decoration: none;
 }
 .navigation-item :hover{
 color: #18a0fb;
 }
 .navigation-item :focus{
     color: #000000;
-}
-.nav-item{
-    color: black;
 }
 .nav-item :hover{
     color: #ffffff;
@@ -88,9 +107,20 @@ color: #18a0fb;
     color: orangered;
     background-color: #000000;
 }
-.nav-item :active{
-    color:chartreuse;
-    background-color: #000000;
+.nav-link{
+    text-decoration: none;
+    color: #212121;
+    background: #F5F4FA;
+border-radius: 4px;
+}
+.navi-link{
+    text-decoration: none;
+    color:#212121;
+}
+.navi-link-active{
+    color:#ffffff;
+    background-color: #18a0fb;
+    border-radius: 4px;
 }
 .section-title{
     font-weight: 600;
@@ -111,12 +141,18 @@ color: #18a0fb;
     line-height: 1.17;
     text-align: center;
 }
+.header-list{
+    list-style: none;
+}
 .headen-title{
     color: #000000;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
+}
+.headen-list{
+    list-style: none;
 }
 .addres-text{
     color: #000000;
@@ -129,6 +165,10 @@ color: #18a0fb;
     font-size: 14px;
     line-height: 1.71;
 }
+.main-list{
+    list-style: none;
+}
+
 
     
                 
