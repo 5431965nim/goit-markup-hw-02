@@ -226,7 +226,7 @@ color:var(--accent-color);
 }
 .content-button:hover,
 .content-button:focus,
-.content-button-curent{
+.content-button curent{
 color: var(--primary-white-color);
 background-color: var(--accent-color);
 }
